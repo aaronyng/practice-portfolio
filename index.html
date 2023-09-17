@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <!--standard elements for the head-->
 <head>
   <meta charset="utf-8">
@@ -9,20 +9,22 @@
   <link
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     rel="stylesheet"
-    type="text/css"
-    />
-  <link href="style.css" rel="stylesheet" type="text/css"/>
+    type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+<!--body starts here-->
 <body>
 <!--anchor element for back to top-->
-  <a name="top"></a>
+  <a id="top"></a>
   <main>
+<!--main content starts here-->
     <div class="container">
+<!--header containing self portrait and quick intro section-->
       <header>
         <section id="first">
           <img src="images/portrait.jpeg" alt="self-portrait">
           <h1>Aaron Yang</h1>
-          <p>Software Developer</p>
+          <h2>Software Developer</h2>
 <!--navigation links to other sections-->
         <nav>
           <ul class="nav-links">
@@ -34,26 +36,27 @@
         </section>
       </header>
 <hr>
-<!--quick intro and lists of interests-->
+<!--quick intro and lists of interests section-->
         <section id="intro">
-          <h2>Welcome!</h2>
+          <h3>Welcome!</h3>
           <p>I'm an aspiring software developer living in Minnesota.</p>
           <p>My true passions are:</p>
+<!--unordered list of passions-->
             <ul>
               <li>Learning</li>
               <li>Programming</li>
               <li>Gaming</li>
               <li>Designing and Creating</li>
             </ul>
-<!--images-->
+<!--images for unordered list in intro page-->
           <img src="images/learning.jpg" alt="learning" class="learning-img">
           <img src="images/programming.png" alt="laptop" class="programming-img">
           <img src="images/gaming.jpg" alt="person-gaming" class="gaming-img">
         </section>
 <hr>
-<!--about me page-->
+<!--about me section-->
         <section id="about">
-          <h2>About Me</h2>
+          <h3>About Me</h3>
             <p>
               Before Thinkful, I was a college student studying Mangagement Information Systems at St. Cloud State University. I then stumbled upon Thinkful and realized that I've found my true passion!
             </p>
@@ -67,29 +70,36 @@
             <a href="#top" class="top">Back to top</a>
           </section>
 <hr>
-<!--contact page-->
+<!--contact info with links section-->
           <section id="contact">
-            <h2>Contact Me</h2>
-              <p>Feel free to contact me or get to know me a little bit more!</p>
+            <h3>Contact Me</h3>
+              <p>Feel free to contact me or get to know me a little bit more!
+              </p>
+<!--links to linkedin and github-->
                 <ol>
                   <li>
-                  <a href="https://www.linkedin.com/in/aaron-yang-929a20288/" target="_blank">LinkedIn
-                  </a>
+                    <a href="https://www.linkedin.com/in/aaron-yang-929a20288/" target="_blank">LinkedIn
+                    </a>
                   </li>
-                  <li><a href="https://github.com/aaronyng" target="_blank">GitHub</a>
+                  <li>
+                    <a href="https://github.com/aaronyng" target="_blank">GitHub</a>
                   </li>
                 </ol>
+<!--linkedin and github logo images-->
                 <img src="images/linkedin.png" alt="" class="linkedin-img">
                 <img src="images/github.png" alt="" class="github-img">
 <!--google map location-->
-            <article name="google-map" id="map">
+            <article id="map">
+              <h4>I'm located in here!</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d180651.2607732326!2d-93.42663501114242!3d44.97057798295873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b333909377bbbd%3A0x939fc9842f7aee07!2sMinneapolis%2C%20MN!5e0!3m2!1sen!2sus!4v1694393604858!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </article>
+<!--back to top link-->
             <div>
               <a href="#top">Back to top</a>
             </div>
           </section>
+<!--simple footer-->
 <footer>© Aaron Yang</footer>
     </div>
   </main>
